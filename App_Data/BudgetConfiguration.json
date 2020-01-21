@@ -1,0 +1,233 @@
+{
+  "Clients": [
+    {
+      "Name": "Client2",
+      "JobDefinition": [
+        {
+          "Name": "Project Management",
+          "TotalHours": [
+            {
+              "Month": "Jan",
+              "Amount": 100.0
+            },
+            {
+              "Month": "Mar",
+              "Amount": 120.0
+            },
+            {
+              "Month": "Dec",
+              "Amount": 60.0
+            }
+          ]
+        },
+        {
+          "Name": "Software Development",
+          "TotalHours": [
+            {
+              "Month": "Jan",
+              "Amount": 300.0
+            }
+          ]
+        },
+        {
+          "Name": "QA",
+          "TotalHours": [
+            {
+              "Month": "Jan",
+              "Amount": 100.0
+            },
+            {
+              "Month": "Mar",
+              "Amount": 120.0
+            },
+            {
+              "Month": "Dec",
+              "Amount": 60.0
+            }
+          ]
+        }
+      ],
+      "Users": [
+        {
+          "Name": "John",
+          "ExpectedPercentageOfDailyHours": 25,
+          "JobFunctions": [
+            {
+              "Name": "Project Management",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 40.0
+                },
+                {
+                  "Month": "Mar",
+                  "Amount": 70.0
+                }
+              ]
+            },
+            {
+              "Name": "Software Development",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 40.0
+                },
+                {
+                  "Month": "Mar",
+                  "Amount": 30.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Melissa",
+          "ExpectedPercentageOfDailyHours": 25,
+          "JobFunctions": [
+            {
+              "Name": "Project Management",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 25.0
+                }
+              ]
+            },
+            {
+              "Name": "QA",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 75.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Kyle",
+          "ExpectedPercentageOfDailyHours": 0,
+          "JobFunctions": [
+            {
+              "Name": "Software Development",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 100.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Rose",
+          "ExpectedPercentageOfDailyHours": 70,
+          "JobFunctions": [
+            {
+              "Name": "Project Management",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 0.0
+                },
+                {
+                  "Month": "Dec",
+                  "Amount": 10.0
+                }
+              ]
+            },
+            {
+              "Name": "QA",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Client1",
+      "JobDefinition": [
+        {
+          "Name": "QA",
+          "TotalHours": [
+            {
+              "Month": "Jan",
+              "Amount": 50.0
+            }
+          ]
+        },
+        {
+          "Name": "DEV",
+          "TotalHours": [
+            {
+              "Month": "Jan",
+              "Amount": 300.0
+            }
+          ]
+        },
+        {
+          "Name": "PM",
+          "TotalHours": [
+            {
+              "Month": "Jan",
+              "Amount": 100.0
+            }
+          ]
+        }
+      ],
+      "Users": [
+        {
+          "Name": "John",
+          "JobFunctions": [
+            {
+              "Name": "QA",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 30.0
+                }
+              ]
+            },
+            {
+              "Name": "DEV",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 30.0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Kyle",
+          "JobFunctions": [
+            {
+              "Name": "DEV",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 30.0
+                }
+              ]
+            },
+            {
+              "Name": "PM",
+              "PercentageOfTime": [
+                {
+                  "Month": "Jan",
+                  "Amount": 80.0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
